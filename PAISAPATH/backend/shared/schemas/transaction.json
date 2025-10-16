@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "amount": { "type": "number" },
+    "category": { "type": "string" },
+    "date": { "type": "string", "format": "date-time" }
+  },
+  "required": ["id", "amount", "category", "date"]
+}
